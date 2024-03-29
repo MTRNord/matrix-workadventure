@@ -1013,7 +1013,7 @@
         {
           "name": "exitUrl",
           "type": "string",
-          "value": "/_/d42y58m2du/mtrnord.github.io/matrix-workadventure/level_element.tmj"
+          "value": "level_element.tmj"
         }
       ],
       "x": 0,
@@ -8120,7 +8120,7 @@
     {
       "columns": 10,
       "firstgid": 1,
-      "image": "level_0-chunk-1-f1e86251.png",
+      "image": "level_0-chunk-1-55640e8b.png",
       "imageheight": 320,
       "imagewidth": 320,
       "margin": 0,
