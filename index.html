@@ -17,12 +17,12 @@
                 path = path.substr(path, path.length - 'index.html'.length);
             }
             const instanceId = Math.random().toString(36).substring(2, 15);
-            const url = `https://play.workadventu.re/_/${instanceId}/${host}${path}map.tmj`;
+            const url = `https://play.workadventu.re/_/${instanceId}/${host}${path}level_0.tmj`;
             document.getElementById('testMapURL').href = url;
             document.getElementById('testMapBtnURL').href = url;
             document.getElementById('testMapURL').innerText = url;
 
-            const tmjURL = window.location.protocol + '//' + window.location.host + path + 'map.tmj';
+            const tmjURL = window.location.protocol + '//' + window.location.host + path + 'level_0.tmj';
             document.getElementById('tmjURL').innerText = tmjURL;
 
             const gettingStartedLink = 'https://workadventu.re/getting-started?name=Map&mapUrl=' + tmjURL;
@@ -31,27 +31,31 @@
         };
     </script>
     <style>
-        html, body {
-        height: 100%;
-        }
+        html,
         body {
-        display: flex;
-        flex-direction: column;
-        }
-        .content {
-        flex: 1 0 auto;
-        }
-        footer {
-        flex-shrink: 0;
+            height: 100%;
         }
 
         body {
-            font-family: Roboto Condensed,Arial;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .content {
+            flex: 1 0 auto;
+        }
+
+        footer {
+            flex-shrink: 0;
+        }
+
+        body {
+            font-family: Roboto Condensed, Arial;
             max-width: 800px;
             margin: 0 auto;
             text-align: center;
         }
-        
+
         header {
             margin: 30px;
         }
@@ -88,7 +92,7 @@
             height: 30px;
         }
 
-        .socials > a {
+        .socials>a {
             display: inline-block;
             margin: 20px 5px;
         }
@@ -125,6 +129,7 @@
             padding: 3px;
             background-color: rgba(65, 86, 246, 0.1);
         }
+
         .url {
             font-family: 'Courier New', Courier, monospace;
             font-size: 14px;
@@ -150,7 +155,9 @@
             <section>
                 <h2>Test my map</h2>
                 <p><a id="testMapURL" href="#" class="url"></a></p>
-                <p class="tips">(In order to test another map, locate "map.tmj" at the end of the URL and replace it by another file name)</p>
+                <p class="tips">(In order to test another map, locate "level_0.tmj" at the end of the URL and replace it
+                    by
+                    another file name)</p>
                 <img src="/map.png" alt="Map thumbnail" class="map">
                 <p><a id="testMapBtnURL" href="#" class="button">Test my map</a></p>
             </section>
@@ -172,7 +179,8 @@
                         <a href="https://github.com/thecodingmachine/workadventure" target="_blank" title="github">
                             <img src="/images/github.png" alt="github">
                         </a>
-                        <a href="https://www.youtube.com/channel/UCXJ9igV-kb9gw1ftR33y5tA" target="_blank" title="youtube">
+                        <a href="https://www.youtube.com/channel/UCXJ9igV-kb9gw1ftR33y5tA" target="_blank"
+                            title="youtube">
                             <img src="/images/youtube.png" alt="youtube">
                         </a>
                         <a href="https://twitter.com/Workadventure_" target="_blank" title="twitter">
@@ -188,7 +196,7 @@
 
                     <div>
                         <a href="https://www.youtube.com/watch?v=lu1IZgBJJD4&list=PL7jmrMKZfjCnz36FvezxJ-Tshuh3Zz-nc&ab_channel=WorkAdventure"
-                        target="_blank">Watch tutorials</a>
+                            target="_blank">Watch tutorials</a>
                         <a href="https://discord.gg/G6Xh9ZM9aR" target="_blank">Talk to the community</a>
                     </div>
                 </div>

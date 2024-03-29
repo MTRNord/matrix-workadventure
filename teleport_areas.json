@@ -3,6 +3,10 @@
         {
             "layer_name": "element_teleport_layer",
             "exitUrl": "level_element.tmj"
+        },
+        {
+            "layer_name": "matrix_teleport_layer",
+            "exitUrl": "level_0.tmj"
         }
     ]
 }
