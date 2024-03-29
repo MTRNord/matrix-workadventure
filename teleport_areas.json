@@ -2,7 +2,7 @@
     "areas": [
         {
             "layer_name": "element_teleport_layer",
-            "exitUrl": "/_/d42y58m2du/mtrnord.github.io/matrix-workadventure/level_element.tmj"
+            "exitUrl": "level_element.tmj"
         }
     ]
 }
