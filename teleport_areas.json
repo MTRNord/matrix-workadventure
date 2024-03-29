@@ -1,0 +1,8 @@
+{
+    "areas": [
+        {
+            "layer_name": "element_teleport_layer",
+            "exitUrl": "/level_element.tmj"
+        }
+    ]
+}
